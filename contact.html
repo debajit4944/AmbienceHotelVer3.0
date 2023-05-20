@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Ambience Contact Page</title>
+</head>
+
+<body>
+  <nav id="navbar" class="navbar navbar-expand-md navbar-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand"><img class="companyLogo" src="img/ambience-logo-new-04.png" alt=""></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="modelcolony.html" class="nav-link">Model Colony</a>
+            <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Model Colony
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Rooms</a>
+              <a class="dropdown-item" href="#">Dining</a>
+              <a class="dropdown-item" href="#">Lounge Bar</a>
+              <a class="dropdown-item" href="#">Banquets</a>
+              <a class="dropdown-item" href="#">Events</a>
+            </div> -->
+          </li>
+          <li class="nav-item dropdown">
+            <a href="wakad.html" class="nav-link">Wakad</a>
+            <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Wakad
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Rooms</a>
+              <a class="dropdown-item" href="#">Dining</a>
+              <a class="dropdown-item" href="#">Lounge Bar</a>
+              <a class="dropdown-item" href="#">Banquets</a>
+              <a class="dropdown-item" href="#">Events</a>
+            </div> -->
+          </li>
+          <li class="nav-item active">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header id="page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto text-center">
+          <h1>Contact Us</h1>
+          <p>Have a requirement? Contact us. We are glad to help...</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card p-4">
+            <div class="card-body">
+              <h4>Get In Touch</h4>
+              <p>Ambience Hotels</p>
+              <h4>Address</h4>
+              <p>Lorem Ipsum Gonte de El Cielo</p>
+              <h4>Email</h4>
+              <p>ambiencehotels@gmail.com</p>
+              <h4>Phone</h4>
+              <p>(+91) 9908800444</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="card special-card p-4">
+            <div class="card-body">
+              <h3 class="text-center"><b>Please fill out this form to contact us</b></h3>
+              <hr>
+              <form id="contactform" action="https://formsubmit.io/send/270cb2c6-f037-4782-b665-e57f7a95eb06" method="POST">
+                <input name="_redirect" type="hidden" id="name" value="https://debajit4944.github.io/AmbienceHotelVer1.0/mailredirect.html">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="First Name" name="firstname" id="firstname" required>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Last Name" name="lastName" id="lastName">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Email" name="email" id="email" required>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Phone Number" name="phoneNumber" id="phoneNumber" required>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <select name="Query_For_Property" id="Query_For_Property" class="form-control form-select form-select-lg mb-3" aria-label=".form-select-lg example" required>
+                        <option value="">Choose Property</option>
+                        <option value="Ambience_Model_Colony">Ambience Model Colony</option>
+                        <option value="Ambience_Wakad">Ambience Wakad</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-12">Choose one or more options:</div>
+                  <div class="col-md-6">
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="chkmarriage" name="Query-Regarding-Marriage" value="Yes">
+                      <label class="form-check-label" for="chkmarriage">Marriage</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="chkrbirthday" name="Query-Regarding-Birthday" value="Yes">
+                      <label class="form-check-label" for="examplebirthday">Birthday</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="chkcorporate" name="Query-Regarding-Corporate-Party" value="Yes">
+                      <label class="form-check-label" for="chkcorporate">Corporate Party</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="chkstay" name="Query-Regarding-Rooms" value="Rooms/Stay">
+                      <label class="form-check-label" for="chkstay">Stay/Rooms</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="chkammenities" name="Query-Regarding-Ammenities" value="Yes">
+                      <label class="form-check-label" for="chkammenities">Ammenities</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="chktransport" name="Query-Regarding-Transport" value="Yes">
+                      <label class="form-check-label" for="chktransport">Transport</label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row mt-3">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <textarea class="form-control" placeholder="Message" name="message" id="message" required></textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <input name="_formsubmit_id" type="text" style="display:none">
+                    <div class="form-group">
+                      <input type="submit" value="Submit" class="btn btn-outline-danger btn-block">
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <!-- <form id="contactform" action="https://formsubmit.io/send/270cb2c6-f037-4782-b665-e57f7a95eb06" method="POST">
+                <input name="_redirect" type="hidden" id="name" value="http://127.0.0.1:5500/contact.html">
+            
+                <input name="name" type="text" id="name">
+                <input name="email" type="email" id="email">
+                <textarea name="comment" id="comment" rows="3"></textarea>
+            
+                <input name="_formsubmit_id" type="text" style="display:none">
+            
+                <input value="Submit" type="submit">
+            </form> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--FAQ-->
+  <section id="faq" class="p-5 bg-dark text-white">
+    <div class="container">
+      <h1 class="text-center">Frequently Asked Questions</h1>
+      <hr>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="accordion" id="accordionExample">
+            <div class="card bg-dark">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left text-warning" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Can Guests Access all the amenities ?
+                  </button>
+                </h2>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque repellendus iure illum cumque? Adipisci, nam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores, ut. Omnis sed magni similique, corrupti repellendus suscipit iusto porro sit doloribus perferendis deserunt ullam blanditiis culpa autem eligendi, ipsum id!
+                  Aperiam voluptatem aliquid fugiat numquam exercitationem explicabo odio eum maxime libero quo commodi reiciendis excepturi quis nostrum ex porro voluptatum sit ut tempore, id saepe officia? Soluta at suscipit quibusdam?
+                </div>
+              </div>
+            </div>
+            <div class="card bg-dark">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left text-warning collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Question #2
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis distinctio exercitationem dolor minus placeat
+                  amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae molestias nulla, quod
+                  voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.
+                </div>
+              </div>
+            </div>
+            <div class="card bg-dark">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left text-warning collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Question #3
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis distinctio exercitationem dolor minus placeat
+                  amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae molestias nulla, quod
+                  voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="accordion" id="accordionExample1">
+            <div class="card bg-dark">
+              <div class="card-header" id="headingFour">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left text-warning collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Question #4
+                  </button>
+                </h2>
+              </div>
+          
+              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample1">
+                <div class="card-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis distinctio exercitationem dolor minus placeat
+                  amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae molestias nulla, quod
+                  voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.
+                </div>
+              </div>
+            </div>
+            <div class="card bg-dark">
+              <div class="card-header" id="headingFive">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left text-warning collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Question #5
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample1">
+                <div class="card-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis distinctio exercitationem dolor minus placeat
+                  amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae molestias nulla, quod
+                  voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.
+                </div>
+              </div>
+            </div>
+            <div class="card bg-dark">
+              <div class="card-header" id="headingSix">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left text-warning collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Question #6
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample1">
+                <div class="card-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis distinctio exercitationem dolor minus placeat
+                  amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae molestias nulla, quod
+                  voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy;
+            <span id="year"></span> HIP Social</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--New-->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/0053d4a2f2.js" crossorigin="anonymous"></script>
+  
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+  </script>
+</body>
+
+</html>

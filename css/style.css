@@ -13,6 +13,10 @@ body {
   /* font-family: 'Merriweather', serif; */
   /* font-family: 'Poppins', sans-serif; */
 }
+.no-padding{
+  margin: 0 !important;
+  padding: 0 !important;
+}
 .carousel-item-overlay:after {
   content:"";
   position:absolute;
@@ -116,7 +120,7 @@ body {
 #home-heading {
   position: relative;
   min-height: 200px;
-  background: url("../img/island-pic.jpg");
+  background: url("../img/slider_new_01.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
@@ -139,7 +143,7 @@ body {
 #video-play {
   position: relative;
   min-height: 200px;
-  background: url("../img/island-pic.jpg");
+  background: url("../img/slider_new_01.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   /*background-position: 0 -300px;*/
@@ -164,6 +168,7 @@ body {
 
 .about-img {
   margin-top: -50px;
+  margin-bottom: -50px;
 }
 
 /*
@@ -182,9 +187,6 @@ body {
 #faq .card-header {
   background: #333;
 }*/
-#authors img {
-  border: 2px solid #333;
-}
 
 #main-footer {
   background: #000;
@@ -214,13 +216,23 @@ section#contact {
 
 #authors img {
   margin-top: -50px;
+  border: 2px solid #333;
 }
 #authors .card:hover {
-  background: #3292a6;
-  color: #fff;
+  /* background: #FFCC00;
+  color: #fff; */
+  transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  cursor: pointer;
 }
-#authors .card:hover .fab {
-  color: #fff;
+#authors .card .bi{
+  font-size: 30px;
+}
+#authors .card:hover .bi {
+  color: #000;
 }
 .custom-img-bg{
   background-color: #000;

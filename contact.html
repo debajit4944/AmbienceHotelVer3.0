@@ -104,7 +104,7 @@
             <div class="card-body">
               <h3 class="text-center"><b>Please fill out this form to contact us</b></h3>
               <hr>
-              <form id="contactform" action="https://formsubmit.io/send/270cb2c6-f037-4782-b665-e57f7a95eb06" method="POST">
+              <form id="contactform" action="" method="POST">
                 <input name="_redirect" type="hidden" id="name" value="https://debajit4944.github.io/AmbienceHotelVer3.0/mailredirect.html">
                 <div class="row">
                   <div class="col-md-6">
@@ -358,7 +358,23 @@
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+    //custom script
+    $(document).ready(function () {
+      $("#Query_For_Property").change(function () {
+        getelementfromdropdown()
+      });
+    });
 
+    function getelementfromdropdown() {
+    var value = $("#Query_For_Property").val();
+    if (value == "Ambience_Model_Colony") {
+        $("#contactform").attr("action", "https://formsubmit.io/send/270cb2c6-f037-4782-b665-e57f7a95eb06");;
+      } 
+    else {
+        $("#contactform").attr("action", "https://formsubmit.io/send/a98829b1-c7c7-4e60-815e-f804e7410ef4");;
+      }
+    alert($("#contactform").attr("action"));
+    }
   </script>
 </body>
 

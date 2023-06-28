@@ -5,7 +5,8 @@ body {
 #navbar{
   /* background: linear-gradient(to bottom, #000000 0%, #006666 150%); */
   /* background: linear-gradient(to bottom, #000000 0%, #00cc00 220%); */
-  background: #231F12; /* fallback for old browsers */
+  background: #231F12;
+  /* background: #bebebc; */
   /* background: -webkit-linear-gradient(to bottom, #434343 0%, #000000 150%);  Chrome 10-25, Safari 5.1-6 */
   /* background: linear-gradient(to bottom, #434343 0%, #000000 150%); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -76,30 +77,31 @@ body {
   bottom: initial;
 }
 
-/* .carousel-image-1 {
-  background: url("../img/carousel-slider-img-03-resized.jpg");
+.carousel-image-1 {
+  background: url("../img/model-colony-carousel-01.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-} */
-@media screen and (min-width: 768px) {
-  .carousel-image-1 {
-    background: url("../img/carousel-slider-img-03-resized.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
 }
 
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 767px) {
+/* @media screen and (min-width: 768px) {
   .carousel-image-1 {
-    background: url("../img/carousel-slider-img-04-resized.jpg");
+    background: url("../img/white-bg/SRB2543-Pano-45\ \(2\).jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
-}
+} */
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+/* @media screen and (max-width: 767px) {
+  .carousel-image-1 {
+    background: url("../img/white-bg/SRB2543-Pano-45\ \(2\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+} */
 
 .carousel-image-2 {
   background: url("../img/slider_new_01.png");
@@ -117,7 +119,7 @@ body {
   background-position: center;
 }
 
-#home-heading {
+#home-heading-one {
   position: relative;
   min-height: 200px;
   background: url("../img/slider_new_01.png");
@@ -126,9 +128,18 @@ body {
   text-align: center;
   color: #fff;
 }
+#home-heading {
+  position: relative;
+  min-height: 160px;
+  background: url("../img/slider_new_01.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
 #home-heading-two {
   position: relative;
-  min-height: 200px;
+  min-height: 160px;
   background: url("../img/slider_new_02.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -145,6 +156,9 @@ body {
   background: rgba(0, 0, 0, 0.6);
 }
 
+#home-icons{
+  background-image: url("../img/bg-lg-grey-white-pattern-0001-wallpaperflare.cor.jpg");
+}
 .home-icons-images{
   max-width:15%;
   max-height:auto;
@@ -180,8 +194,8 @@ body {
 }
 #page-header {
   height: 200px;
-  background: url("../img/image1.jpg");
-  background-position: 0 -360px;
+  background: url("../img/bg-md-image.jpg");
+  /* background-position: 0 -360px; */
   background-attachment: fixed;
   background-repeat: no-repeat;
   color: #fff;
